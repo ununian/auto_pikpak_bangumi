@@ -1,0 +1,4 @@
+/target
+download
+*.local.*
+.DS_Store

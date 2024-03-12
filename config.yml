@@ -1,0 +1,23 @@
+version: 1
+
+directory:
+  download: ./download
+
+pikpak:
+  path: /download
+  username: username
+  password: password
+
+proxy: http://127.0.0.1:7890
+
+bangumi:
+  - name: 葬送的芙莉莲
+    rss: https://mikanani.me/RSS/Bangumi?bangumiId=3141
+    session: 1
+    filter:
+      expect:
+        - 简
+        - 沸羊羊
+      exclude:
+        - 720
+        - 繁
